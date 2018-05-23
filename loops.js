@@ -18,3 +18,8 @@ function whileLoop(num){
   return "done"
 }
 
+
+
+function doWhileLoop(arr){
+  
+}
