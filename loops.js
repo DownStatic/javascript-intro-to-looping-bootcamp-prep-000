@@ -23,5 +23,8 @@ function maybeTrue() {
 }
 
 function doWhileLoop(arr){
-  
+  do{
+    arr.length = arr.length - 1
+  } while (arr.length > 0 && maybeTrue())
+  return arr
 }
